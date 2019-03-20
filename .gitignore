@@ -12,6 +12,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Whitelist for build files
+!*/x64/Debug/*.exe
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -329,5 +332,3 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-# Exclusion for build files
-!x64/Debug/*.exe
